@@ -1,0 +1,1604 @@
+{
+  "seats":[
+    {
+      "Alabama-1": {
+        "incumbent": {
+          "name": "Richard Shelby",
+          "party": "Republican"
+        },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Richard Shelby",
+          "party": "Republican",
+          "photo": "../images/AL-Shelby.jpg",
+          "bio": "Richard Shelby was first elected to the U.S. Senate as a Democrat in 2986. Partway through his second term, he switched parties in the year the Republicans regained control of Congress. Shelby has not faced significant electoral opposition since.",
+          "platform": "Pro-life, traditional marriage, opposing amnesty for illegal immigrants"
+        },
+        "otherCandidates": [{
+          "name": "Marcus Bowman",
+          "party": "Republican"
+        },
+        {
+          "name": "John Martin",
+          "party": "Republican"
+        },
+        {
+          "name": "Jonathan McConnell",
+          "party": "Republican"
+        },
+        {
+          "name": "Shadrack McGill",
+          "party": "Republican"
+        },
+        {
+          "name": "Charles Nana",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ron Crumpton",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Alabama-2": {
+        "incumbent": {
+          "name": "Jeff Sessions",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Alaska-1": {
+        "incumbent": {
+          "name": "Lisa Murkowski",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Lisa Murkowski",
+          "party": "Republican",
+          "photo": "../images/AK-Murkowski.jpg",
+          "bio": "Lisa Murkowski is the senior senator for Alaska, having served since 2002. She is the daughter of former U.S. Senator and Governor of Alaska Frank Murkowski, who appointed her to his vacant seat when he assumed the governorship. Prior to being appointed to the Senate, she served in the Alaska House of Representatives. In 2010, she became the first senator to be elected by write-in vote since Strom Thurmond in 1954, after having lost the Republican nomination to a Tea Party candidate.",
+          "platform": "Pro-choice, supports oil drilling in Alaska, opposes gun control"
+        },
+        "otherCandidates": [{
+          "name": "Thomas Lamb",
+          "party": "Republican"
+        },
+        {
+          "name": "Cean Stevens",
+          "party": "Libertarian"
+        }]
+      }
+    },
+    {
+      "Alaska-2": {
+        "incumbent": {
+          "name": "Dan Sullivan",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Arizona-1": {
+        "incumbent": {
+          "name": "John McCain",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Ann Kirkpatrick",
+          "party": "Democratic",
+          "photo": "../images/AZ-Kirkpatrick.jpg",
+          "bio": "Ann Kirkpatrick is currently the U.S. representative for Arizona's 1st district. She served from 2009 to 2011 before losing a close election in 2010, then regained the seat in 2012. Though not of native descent, she was born and raised on the Apache Indian Reservation.",
+          "platform": "Protecting Medicare and Social Security, fiscal responsibility, veterans' benefits"
+        },
+        "otherCandidates": [{
+          "name": "John McCain",
+          "party": "Republican"
+        },
+        {
+          "name": "Lennie Clark",
+          "party": "Democratic"
+        },
+        {
+          "name": "Alex Melusky",
+          "party": "Republican"
+        },
+        {
+          "name": "David Pizer",
+          "party": "Republican"
+        },
+        {
+          "name": "Clair Van Steenwyck",
+          "party": "Republican"
+        },
+        {
+          "name": "Kelli Ward",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Arizona-2": {
+        "incumbent": {
+          "name": "Jeff Flake",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Arkansas-1": {
+        "incumbent": {
+          "name": "John Boozman",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Conner Eldridge",
+          "party": "Democratic",
+          "photo": "../images/AK-Eldridge.jpg",
+          "bio": "Conner Eldridge is the former U.S. Attorney for the Western District of Arkansas.",
+          "platform": "Protecting Social Security and Medicare, stopping the repeal of hate crime legislation, lowering college debt"
+        },
+        "otherCandidates": [{
+          "name": "John Boozman",
+          "party": "Republican"
+        },
+        {
+          "name": "Curtis Coleman",
+          "party": "Republican"
+        },
+        {
+          "name": "Frank Gilbert",
+          "party": "Libertarian"
+        }]
+      }
+    },
+    {
+      "Arkansas-2": {
+        "incumbent": {
+          "name": "Tom Cotton",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "California-1": {
+        "incumbent": {
+          "name": "Dianne Feinstein",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "California-2": {
+        "incumbent": {
+          "name": "Barbara Boxer",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Kamala Harris",
+          "party": "Democratic",
+          "photo": "../images/CA-Harris.jpg",
+          "bio": "Kamala Harris has been the Attorney General of California since 2011. She is the first female, the first African-American and the first Asian-American attorney general in California.",
+          "platform": "Civil rights and justice, improving the criminal justice system, environmental protection"
+        },
+        "otherCandidates": [{
+          "name": "Loretta Sanchez",
+          "party": "Democratic"
+        },
+        {
+          "name": "Rocky Chavez",
+          "party": "Republican"
+        },
+        {
+          "name": "Tom Del Beccaro",
+          "party": "Republican"
+        },
+        {
+          "name": "Duf Sundheim",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Colorado-1": {
+        "incumbent": {
+          "name": "Michael Bennet",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Jon Keyser",
+          "party": "Republican",
+          "photo": "../images/CO-Keyser.jpg",
+          "bio": "Jon Keyser represents District 25 in the Colorado House of Representatives. Hs is a graduate of the U.S. Air Force Academy and served tours in both Iraq and Afghanistan. He is currently in the Air Force Reserve.",
+          "platform": "Improving education, national security, border security"
+        },
+        "otherCandidates": [{
+          "name": "Michael Bennet",
+          "party": "Democratic"
+        },
+        {
+          "name": "Robert Blaha",
+          "party": "Republican"
+        },
+        {
+          "name": "Ryan Frazier",
+          "party": "Republican"
+        },
+        {
+          "name": "Darryl Glenn",
+          "party": "Republican"
+        },
+        {
+          "name": "Jack Graham",
+          "party": "Republican"
+        },
+        {
+          "name": "Peggy Littleton",
+          "party": "Republican"
+        },
+        {
+          "name": "Greg Lopez",
+          "party": "Republican"
+        },
+        {
+          "name": "Tim Neville",
+          "party": "Republican"
+        },
+        {
+          "name": "Donald Rosier",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Colorado-2": {
+        "incumbent": {
+          "name": "Cory Gardner",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Connecticut-1": {
+        "incumbent": {
+          "name": "Richard Blumenthal",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "August Wolf",
+          "party": "Republican",
+          "photo": "../images/CT-Wolf.jpg",
+          "bio": "August Wolf is a former Olympian and field athlete known for throwing the shot put. He competed in the 1984 Olympics in Los Angeles and was the 1984 United States national champion in the shot put.",
+          "platform": "Free enterprise, lowering taxes"
+        },
+        "otherCandidates": [{
+          "name": "Richard Blumenthal",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Connecticut-2": {
+        "incumbent": {
+          "name": "Chris Murphy",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Delaware-1": {
+        "incumbent": {
+          "name": "Tom Carper",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Delaware-2": {
+        "incumbent": {
+          "name": "Chris Coons",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Florida-1": {
+        "incumbent": {
+          "name": "Bill Nelson",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Florida-2": {
+        "incumbent": {
+          "name": "Marco Rubio",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Patrick Murphy",
+          "party": "Democratic",
+          "photo": "../images/FL-Murphy.jpg",
+          "bio": "Patrick Murphy is the U.S. Representative for Florida's 18th congressional district. He was elected in 2012, when he defeated incumbent Allen West in the most expensive House race in the history.",
+          "platform": "Championing the middle class, strenghtening Social Security and Medicaid, protecting Florida's environment and coastline"
+        },
+        "otherCandidates": [{
+          "name": "Ron DeSantis",
+          "party": "Democratic"
+        },
+        {
+          "name": "David Jolly",
+          "party": "Republican"
+        },
+        {
+          "name": "Carlos Lopez-Cantera",
+          "party": "Republican"
+        },
+        {
+          "name": "Todd Wilcox",
+          "party": "Republican"
+        },
+        {
+          "name": "Alan Grayson",
+          "party": "Democratic"
+        },
+        {
+          "name": "Pam Keith",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Georgia-1": {
+        "incumbent": {
+          "name": "Johnny Isakson",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Johnny Isakson",
+          "party": "Republican",
+          "photo": "../images/GA-Isakson.jpg",
+          "bio": "Johnny Isakson is the senior senator from Georgia, having served since 2005. He was elected to the House of Representatives to replace former Speaker Newt Gingrich after he resigned in 1999.",
+          "platform": "National security, reducing government regulation, lowering taxes"
+        },
+        "otherCandidates": [{
+          "name": "Lee Benedict",
+          "party": "Republican"
+        },
+        {
+          "name": "Derrick Grayson",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Georgia-2": {
+        "incumbent": {
+          "name": "David Perdue",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Hawaii-1": {
+        "incumbent": {
+          "name": "Mazie Hirono",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Hawaii-2": {
+        "incumbent": {
+          "name": "Brian Schatz",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Brian Schatz",
+          "party": "Democratic",
+          "photo": "../images/HI-Schatz.jpg",
+          "bio": "Brian Schatz has been the junior senator for Hawaii since 2012, when he was appointed by Governor Neil Abercombie to replace Daniel Inouye after his death. Prior to joining the Senate, he served as lieutenant governmor under Abercrombie and has previoiusly served as the chairman of the Democratic Party of Hawaii.",
+          "platform": "Economy that works for families, protecting Social Security and Medicare, clean energy"
+        },
+        "otherCandidates": [{
+          "name": "Charles Collins",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Idaho-1": {
+        "incumbent": {
+          "name": "Mike Crapo",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Mike Crapo",
+          "party": "Republican",
+          "photo": "../images/ID-Crapo.jpg",
+          "bio": "Mike Crapo has served as senator since 1999 after serving three terms in the U.S. House of Representatives. He ran unopposd in 2004 and won the election in 2010 with 71% of the vote.",
+          "platform": "Pro-traditonal marriage, pro-life, reducing government regulation"
+        },
+        "otherCandidates": false
+      }
+    },
+    {
+      "Idaho-2": {
+        "incumbent": {
+          "name": "Jim Risch",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Illinois-1": {
+        "incumbent": {
+          "name": "Dick Durbin",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Illinois-2": {
+        "incumbent": {
+          "name": "Mark Kirk",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Tammy Duckworth",
+          "party": "Democratic",
+          "photo": "../images/IL-Duckworth.jpg",
+          "bio": "Tammy Duckworth is the U.S. Representative for Illinois's 8th congressional district. She is the first Asian American woman elected to Congress in Illinois, the first disabled woman to be elected to the U.S. House of Representatives and the first member of Congress born in Thailand. She is an Iraq War veteran who lost both legs and was the first female double amputee from the war.",
+          "platform": "Advocating for small business, investing in infrastructure, improving the lives of veterans."
+        },
+        "otherCandidates": [{
+          "name": "Mark Kirk",
+          "party": "Republican"
+        },
+        {
+          "name": "James Marter",
+          "party": "Republican"
+        },
+        {
+          "name": "Napoleon Harris",
+          "party": "Deocratic"
+        },
+        {
+          "name": "Andrea Zopp",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Indiana-1": {
+        "incumbent": {
+          "name": "Dan Coats",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Todd Young",
+          "party": "Republican",
+          "photo": "../images/IN-Young.jpg",
+          "bio": "Todd Young is the U.S. Representative for Indiana's 9th congressional district. He was first elected in 2010.",
+          "platform": "Repealing Obamacare, gun rights, tax reform"
+        },
+        "otherCandidates": [{
+          "name": "Baron Hill",
+          "party": "Democratic"
+        },
+        {
+          "name": "Eric Holcomb",
+          "party": "Republican"
+        },
+        {
+          "name": "Marlin Stutzman",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Indiana-2": {
+        "incumbent": {
+          "name": "Joe Donnelly",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Iowa-1": {
+        "incumbent": {
+          "name": "Chuck Grassley",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Rob Hogg",
+          "party": "Democratic",
+          "photo": "../images/IA-Hogg.jpg",
+          "bio": "Rob Hogg has been an Iowa state senator since 2007 after serving in the Iowa House of Representative from 2003-2007.",
+          "platform": "Environmental protection, climate change, education"
+        },
+        "otherCandidates": [{
+          "name": "Chuck Grassley",
+          "party": "Republican"
+        },
+        {
+          "name": "Tom Fiegen",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Iowa-2": {
+        "incumbent": {
+          "name": "Joni Ernst",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Kansas-1": {
+        "incumbent": {
+          "name": "Pat Roberts",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Kansas-2": {
+        "incumbent": {
+          "name": "Jerry Moran",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Jerry Moran",
+          "party": "Republican",
+          "photo": "../images/KS-Moran.jpg",
+          "bio": "Jerry Moran is the junior senator from Kansas, first elected in 2010. Prior to joining the Senate, Moran served six terms as a U.S. Representative and two years as the majority leader for the Kansas Senate.",
+          "platform": "Agriculture, affordable healthcare, reducing government spending"
+        },
+        "otherCandidates": false
+      }
+    },
+    {
+      "Kentucky-1": {
+        "incumbent": {
+          "name": "Mitch McConnell",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Kentucky-2": {
+        "incumbent": {
+          "name": "Rand Paul",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Jim Gray",
+          "party": "Democratic",
+          "photo": "../images/KY-Gray.jpg",
+          "bio": "Jim Gray has served as the mayor of Lexington, Ky., since 2010. Prior to entering politics, he was chairman and CEO of Gray Construction.",
+          "platform": "Not yet announced"
+        },
+        "otherCandidates": [{
+          "name": "Rand Paul",
+          "party": "Republican"
+        },
+        {
+          "name": "Rory Houlihan",
+          "party": "Democratic"
+        },
+        {
+          "name": "Jeff Kender",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ron Leach",
+          "party": "Democratic"
+        },
+        {
+          "name": "Tom Recktenwald",
+          "party": "Democratic"
+        },
+        {
+          "name": "Grant Short",
+          "party": "Democratic"
+        },
+        {
+          "name": "Sellus Wilder",
+          "party": "Democratic"
+        },
+        {
+          "name": "James Gould",
+          "party": "Republican"
+        },
+        {
+          "name": "Stephen Slaughter",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Louisiana-1": {
+        "incumbent": {
+          "name": "David Vitter",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Charles Boustany",
+          "party": "Republican",
+          "photo": "../images/LA-Boustany.jpg",
+          "bio": "Charles Boustany is a physician who has served as the U.S. Representative for Louisiana's 3rd congressional district since 2013.",
+          "platform": "Repealing Obamacare, oil drilling, agriculture"
+        },
+        "otherCandidates": [{
+          "name": "Joseph Cao",
+          "party": "Republican"
+        },
+        {
+          "name": "John Fleming",
+          "party": "Republican"
+        },
+        {
+          "name": "John Kennedy",
+          "party": "Republican"
+        },
+        {
+          "name": "Rob Maness",
+          "party": "Republican"
+        },
+        {
+          "name": "Troy Hebert",
+          "party": "Independent"
+        }]
+      }
+    },
+    {
+      "Louisiana-2": {
+        "incumbent": {
+          "name": "Bill Cassidy",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Maine-1": {
+        "incumbent": {
+          "name": "Susan Collins",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Maine-2": {
+        "incumbent": {
+          "name": "Angus King",
+          "party": "Independent"
+          },
+        "open": false
+      }
+    },
+    {
+      "Maryland-1": {
+        "incumbent": {
+          "name": "Barbars Mikulski",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Donna Edwards",
+          "party": "Democratic",
+          "photo": "../images/MD-Edwards.jpg",
+          "bio": "Donna Edwards is the U.S. Representative for Maryland's 4th congressional district. She is the first African-American woman to represent Maryland in Congress.",
+          "platform": "LGBTQ rights, immigration reform, gun violence protection"
+        },
+        "otherCandidates": [{
+          "name": "Freddie Donald Dickson Jr.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ralph Jaffe",
+          "party": "Democratic"
+        },
+        {
+          "name": "Charles U. Smith",
+          "party": "Democratic"
+        },
+        {
+          "name": "Violet Staley",
+          "party": "Democratic"
+        },
+        {
+          "name": "Blaine Taylor",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ed Tinus",
+          "party": "Democratic"
+        },
+        {
+          "name": "Chris Van Hollen",
+          "party": "Democratic"
+        },
+        {
+          "name": "Lih Young",
+          "party": "Democratic"
+        },
+        {
+          "name": "Chris Chafee",
+          "party": "Republican"
+        },
+        {
+          "name": "Sean Conner",
+          "party": "Republican"
+        },
+        {
+          "name": "Richard Douglas",
+          "party": "Republican"
+        },
+        {
+          "name": "John R. Graziani",
+          "party": "Republican"
+        },
+        {
+          "name": "Greg Holmes",
+          "party": "Republican"
+        },
+        {
+          "name": "Joseph David Hooe",
+          "party": "Republican"
+        },
+        {
+          "name": "Chrya Kefalas",
+          "party": "Republican"
+        },
+        {
+          "name": "Mark McNicholas",
+          "party": "Republican"
+        },
+        {
+          "name": "Lynn Richardson",
+          "party": "Republican"
+        },
+        {
+          "name": "Anthony Seda",
+          "party": "Republican"
+        },
+        {
+          "name": "Richard Shawver",
+          "party": "Republican"
+        },
+        {
+          "name": "Kathy Szeglia",
+          "party": "Republican"
+        },
+        {
+          "name": "Dave Wallace",
+          "party": "Republican"
+        },
+        {
+          "name": "Frank Gilbert",
+          "party": "Garry T. Yarrington"
+        }]
+      }
+    },
+    {
+      "Maryland-2": {
+        "incumbent": {
+          "name": "Ben Cardin",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Masscachusetts-1": {
+        "incumbent": {
+          "name": "Elizabeth Warren",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Massachusetts-2": {
+        "incumbent": {
+          "name": "Ed Markey",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Michigan-1": {
+        "incumbent": {
+          "name": "Debbie Stabenow",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Michigan-2": {
+        "incumbent": {
+          "name": "Gary Peters",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Minnesota-1": {
+        "incumbent": {
+          "name": "Amy Klubuchar",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Minnesota-2": {
+        "incumbent": {
+          "name": "Al Franken",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Mississippi-1": {
+        "incumbent": {
+          "name": "Thad Cochran",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Mississippi-2": {
+        "incumbent": {
+          "name": "Roger Wicker",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Missouri-1": {
+        "incumbent": {
+          "name": "Claire McCaskill",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Missouri-2": {
+        "incumbent": {
+          "name": "Roy Blunt",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Jason Kander",
+          "party": "Democratic",
+          "photo": "../images/MO-Kander.jpg",
+          "bio": "Jason Kander is Missouri's Secretary of State and, at 34, is the youngest statewide elected official in The U.S. He is a former Army Captain who served in Afghanistan.",
+          "platform": "Veteran support, open and honest government, campaign finance reform"
+        },
+        "otherCandidates": [{
+          "name": "Roy Blunt",
+          "party": "Republican"
+        },
+        {
+          "name": "Christipher Batsche",
+          "party": "Republican"
+        },
+        {
+          "name": "MD Rabbi Alam",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Montana-1": {
+        "incumbent": {
+          "name": "Jon Tester",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Montana-2": {
+        "incumbent": {
+          "name": "Steve Daines",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Nebraska-1": {
+        "incumbent": {
+          "name": "Deb Fischer",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Nebraska-2": {
+        "incumbent": {
+          "name": "Ben Sassa",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Nevada-1": {
+        "incumbent": {
+          "name": "Harry Reid",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Catherine Cortez Masto",
+          "party": "Democratic",
+          "photo": "../images/NV-Masto.jpg",
+          "bio": "Catherine Cortez Masto was the Attorney General of Nevada from 2007 to 2015. She is running for the vacated seat of former Majority Leader Harry Reid, who endorsed her as his replacement.",
+          "platform": "Job creation, protecting Social Security and Medicare, immigration reform"
+        },
+        "otherCandidates": [{
+          "name": "Joe Heck",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "Nevada-2": {
+        "incumbent": {
+          "name": "Dean Heller",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "New Hampshire-1": {
+        "incumbent": {
+          "name": "Jeanne Shaheen",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "New Hampshire-2": {
+        "incumbent": {
+          "name": "Kelly Ayotte",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Maggie Hassan",
+          "party": "Democratic",
+          "photo": "../images/NH-Hassan.jpg",
+          "bio": "Maggie Hassan is the current governor of New Hampshire. She is the second woman to hold that position. Since 2013, she has served as the vice chair of the Democratic Governors Association.",
+          "platform": "Combating the heroin crisis, national security, fostering a business-friendly environment"
+        },
+        "otherCandidates": [{
+          "name": "Kelly Ayotte",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "New Jersey-1": {
+        "incumbent": {
+          "name": "Bob Menendez",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "New Jersey-2": {
+        "incumbent": {
+          "name": "Cory Booker",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "New Mexico-1": {
+        "incumbent": {
+          "name": "Tom Udall",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "New Mexico-2": {
+        "incumbent": {
+          "name": "Martin Heinrich",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "New York-1": {
+        "incumbent": {
+          "name": "Chuck Schumer",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Chuck Schumer",
+          "party": "Democratic",
+          "photo": "../images/NY-Schumer.jpg",
+          "bio": "Chuck Schumer is the senior senator for New York who was first elected in 1998. Minority Leader Harry Reid, who is retiring at the end of this term, has endorsed Schumer to succeed him.",
+          "platform": "Gun control, abortion rights, homeland security"
+        },
+        "otherCandidates": false
+      }
+    },
+    {
+      "New York-2": {
+        "incumbent": {
+          "name": "Kirsten Gillibrand",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "North Carolina-1": {
+        "incumbent": {
+          "name": "Richard Burr",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Deborah Ross",
+          "party": "Democratic",
+          "photo": "../images/NC-Ross.jpg",
+          "bio": "An attorney from Raleigh, Deborah Ross served five full terms and one partial term in the North Carolina House of Representatives. In 2015, Ross resigned from her position as legal counsel at GoTriangle to run for the Senate.",
+          "platform": "Access to education, strengthening small business, protecting victims of domestic abuse"
+        },
+        "otherCandidates": [{
+          "name": "Richard Burr",
+          "party": "Republican"
+        },
+        {
+          "name": "Greg Brannon",
+          "party": "Republican"
+        },
+        {
+          "name": "Larry Holmquist",
+          "party": "Republican"
+        },
+        {
+          "name": "Paul Wright",
+          "party": "Republican"
+        },
+        {
+          "name": "Chris Rey",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kevin Griffin",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ernest Reeves",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "North Carolina-2": {
+        "incumbent": {
+          "name": "Thom Tillis",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "North Dakota-1": {
+        "incumbent": {
+          "name": "John Hoeven",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "John Hoeven",
+          "party": "Republican",
+          "photo": "../images/ND-Hoeven.jpg",
+          "bio": "John Hoeven is the senior senator for North Dakota. He served as the governor of that state from 2000 to 2010 before his election to the Senate.",
+          "platform": "Agriculture, national security, transportation"
+        },
+        "otherCandidates": [{
+          "name": "Robert Marquette",
+          "party": "Libertarian"
+        }]
+      }
+    },
+    {
+      "North Dakota-2": {
+        "incumbent": {
+          "name": "Heidi Heitkamp",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Ohio-1": {
+        "incumbent": {
+          "name": "Sherrod Brown",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Ohio-2": {
+        "incumbent": {
+          "name": "Rob Portman",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Ted Strickland",
+          "party": "Democratic",
+          "photo": "../images/OH-Strickland.jpg",
+          "bio": "Ted Strickland served six terms in the U.S. House of Representatives and was the governor of Ohio from 2007 to 2011. Strickland currently serves as a member of the Governors' Council at the Bipartisan Policy Center and is the president of the Center for American Progress Action Fund.",
+          "platform": "Fair wages, gun control, national security"
+        },
+        "otherCandidates": [{
+          "name": "Rob Portman",
+          "party": "Republican"
+        },
+        {
+          "name": "Don Elijah Eckhart",
+          "party": "Republican"
+        },
+        {
+          "name": "P.G. Sittenfeld",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kelli Prather",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Oklahoma-1": {
+        "incumbent": {
+          "name": "James Lankford",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "James Lankford",
+          "party": "Republican",
+          "photo": "../images/OK-Lankford.jpg",
+          "bio": "James Lankford is the junior senator for Oklahoma. Previously, he served as the U.S. Representative for Oklahoma's 5th congressional district from 2011 to 2015.",
+          "platform": "Gun rights, balancing the budget, agriculture"
+        },
+        "otherCandidates": false
+      }
+    },
+    {
+      "Oklahoma-2": {
+        "incumbent": {
+          "name": "Jim Inhofe",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Oregon-1": {
+        "incumbent": {
+          "name": "Ron Wyden",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Ron Wyden",
+          "party": "Democratic",
+          "photo": "../images/OR-Wyden.jpg",
+          "bio": "Ron Wyden has served as U.S. Senator for Oregon since his election in 1996. He previously served in the U.S. House of Representatives from 1981 to 1996.",
+          "platform": "Gun control, raising the minimum wage, abortion rights"
+        },
+        "otherCandidates": [{
+          "name": "Mark Callahan",
+          "party": "Republican"
+        },
+        {
+          "name": "Dan Laschober",
+          "party": "Republican"
+        },
+        {
+          "name": "Faye Stewart",
+          "party": "Republican"
+        },
+        {
+          "name": "Kevin Stine",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Oregon-2": {
+        "incumbent": {
+          "name": "Jeff Merkley",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Pennsylvania-1": {
+        "incumbent": {
+          "name": "Bob Casey, Jr.",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Pennsylvania-2": {
+        "incumbent": {
+          "name": "Pat Toomey",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Joe Sestak",
+          "party": "Democratic",
+          "photo": "../images/PA-Sestak.jpg",
+          "bio": "Joe Sestak represented Pennsylvania's 7th congressional district in the House from 2007 to 2011 and is a former U.S. Navy three-star admiral. He was and remains the highest-ranking military official ever elected to Congress.",
+          "platform": "Balancing the budget, education, healthcare expansion"
+        },
+        "otherCandidates": [{
+          "name": "Pat Toomey",
+          "party": "Republican"
+        },
+        {
+          "name": "Everett Stern",
+          "party": "Republican"
+        },
+        {
+          "name": "Kathleen McGinty",
+          "party": "Democratic"
+        },
+        {
+          "name": "John Fetterman",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Rhode Island-1": {
+        "incumbent": {
+          "name": "Jack Reed",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Rhose Island-2": {
+        "incumbent": {
+          "name": "Sheldon Whitehouse",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "South Carolina-1": {
+        "incumbent": {
+          "name": "Lindsey Graham",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "South Carolina-2": {
+        "incumbent": {
+          "name": "Tim Scott",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Joyce Dickerson",
+          "party": "Democratic",
+          "photo": "../images/SC-Dickerson.jpg",
+          "bio": "Joyce Dickerson is currently serving her third term as Richland County Councilwoman in South Carolina.",
+          "platform": "Abortion rights, veterans support, immigration reform"
+        },
+        "otherCandidates": [{
+          "name": "Tim Scott",
+          "party": "Republican"
+        }]
+      }
+    },
+    {
+      "South Dakota-1": {
+        "incumbent": {
+          "name": "John Thune",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "John Thune",
+          "party": "Republican",
+          "photo": "../images/SD-Thune.jpg",
+          "bio": "John Thune is the senior Senator from South Dakota, having served since 2005. He previously served in the U.S. House of Representatives from 1997-2003. He has served as the Republican Conference Chairman since 2011, the third-ranking position in the Senate.",
+          "platform": "Alternate energy, gun rights, small business"
+        },
+        "otherCandidates": false
+      }
+    },
+    {
+      "South Dakota-2": {
+        "incumbent": {
+          "name": "Mike Rounds",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Tennessee-1": {
+        "incumbent": {
+          "name": "Lamar Alexander",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Tennessee-2": {
+        "incumbent": {
+          "name": "Bob Corker",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Texas-1": {
+        "incumbent": {
+          "name": "John Cornyn",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Texas-2": {
+        "incumbent": {
+          "name": "Ted Cruz",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Utah-1": {
+        "incumbent": {
+          "name": "Orrin Hatch",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Utah-2": {
+        "incumbent": {
+          "name": "Mike Lee",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Mike Lee",
+          "party": "Republican",
+          "photo": "../images/UT-Lee.jpg",
+          "bio": "Mike Lee, a law clark and Tea Party member, was elected to the Senate in 2010. He won the general election with 61% of the vote despite never having held public office.",
+          "platform": "Veterans issues, opportunity for the middle class, criminal justice reform"
+        },
+        "otherCandidates": [{
+          "name": "Joyce Dickerson",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Vermont-1": {
+        "incumbent": {
+          "name": "Patrick Leahy",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Patrick Leahy",
+          "party": "Democratic",
+          "photo": "../images/VT-Leahy.jpg",
+          "bio": "A Vermont senator since 1975, Patrick Leahy is the most senior member of the Senate and took office at a younger age than any othercurrent senator. He is the only elected Democratic senator in Vermont's history.",
+          "platform": "International human rights, environmental protection, death penalty reform"
+        },
+        "otherCandidates": false
+      }
+    },
+    {
+      "Vermont-2": {
+        "incumbent": {
+          "name": "Bernie Sanders",
+          "party": "Independent"
+          },
+        "open": false
+      }
+    },
+    {
+      "Virginia-1": {
+        "incumbent": {
+          "name": "Mark Warner",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Virginia-2": {
+        "incumbent": {
+          "name": "Tim Kaine",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Washington-1": {
+        "incumbent": {
+          "name": "Patty Murray",
+          "party": "Democratic"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Chris Vance",
+          "party": "Republican",
+          "photo": "../images/WA-Vance.jpg",
+          "bio": "Chris Vance is a former member of the Washington House of Representatives and Chairman of the Washington State Republican Party. He has been out of politics since he resigned from the position in 2006.",
+          "platform": "Lowering the national debt, growing the economy, protecting Social Security and Medicare"
+        },
+        "otherCandidates": [{
+          "name": "Patty Murray",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Washington-2": {
+        "incumbent": {
+          "name": "Maria Cantwell",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "West Virginia-1": {
+        "incumbent": {
+          "name": "Joe Manchin",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "West Virginia-2": {
+        "incumbent": {
+          "name": "Shelley Moore Capito",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Wisconsin-1": {
+        "incumbent": {
+          "name": "Ron Johnson",
+          "party": "Republican"
+          },
+        "open": true,
+        "featuredCandidate": {
+          "name": "Russ Feingold",
+          "party": "Democratic",
+          "photo": "../images/WI-Feingold.jpg",
+          "bio": "Russ Feingold was a long-standing U.S. Senator, having served Wisconsin from 1993 to 2011. He is perhaps best known for the campaign finance reform act he cosponsored with Senator John McCain in 2002. He was the only senator to vote against the Patriot Act during the first vote on the legislation.",
+          "platform": "Campaign finance reform, pro-choice, immigration reform"
+        },
+        "otherCandidates": [{
+          "name": "Ron Johnson",
+          "party": "Democratic"
+        }]
+      }
+    },
+    {
+      "Wisconsin-2": {
+        "incumbent": {
+          "name": "Tammy Baldwin",
+          "party": "Democratic"
+          },
+        "open": false
+      }
+    },
+    {
+      "Wyoming-1": {
+        "incumbent": {
+          "name": "Mike Enzi",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    },
+    {
+      "Wyoming-2": {
+        "incumbent": {
+          "name": "John Barrasso",
+          "party": "Republican"
+          },
+        "open": false
+      }
+    }
+  ]
+}
