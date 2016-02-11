@@ -1,5 +1,3 @@
-# Angular JS Starter File
+# 2016 U.S. Senate elections application
 
-This is a very basic starter setup for an Angular.js 1.4.8 app.
-
-You can clone this repository and use it as a starting point for an exercise or project.
+This is an app that displays all Senate seats and allows you to see which are up for reelection this year. If you click on a seat, you can see the incumbent and a list of the candidates running.
