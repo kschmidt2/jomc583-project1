@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- angular -->
-        <script type="text/javascript" src="js/angular.js"></script>
 
-        <!-- script -->
-        <script type="text/javascript" src="js/app.js"></script>
+        <title>Racing for the Senate</title>
 
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="styles/main.css"/>
+        <link rel="stylesheet" href="css/custom.css" />
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
     </head>
 
     <body ng-app="myApp">
 
-        <div class="container" ng-controller="BaseController as base">
+      <div id="banner">
+        <img src="images/banner.png" class="img-responsive banner-image"></img>
+      </div>
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>Test</h3>
-                    <p>Hello</p>
-                    <p>{{ base.message }}</p>
+        <div class="container" ng-controller="SenateController as senate">
+
+          <div id="headbox">
+            <h1>Racing for the Senate</h1>
+            <h2>Thirty-four seats in the United States Senate are up for grabs in 2016.
+              This is where more information will go. This is where more information will go.
+              This is where more information will go. This is where more information will go.
+              This is where more information will go.</h2>
+          </div>
+
+          <div class="row show-grid padding-top">
+            <div class="col-xs-12 col-md-4">
+              <div id="sidebar" data-spy="affix">
+                Hello there
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-8" id="main">
+              <div class="row" id="mainbar">
+                <div class="seat-tile" ng-repeat="seat in senate.seats">
+                  <img src="{{seat.background}}" class="img-responsive-icons {{seat.open}}">
                 </div>
+              </div>
+                <!-- <p>{{seat.name}}</br>
+                <b>Incumbent: </b>{{seat.incumbent.name}} ({{seat.incumbent.party}})</br>
+                <b>Featured Candidate </b>{{seat.featuredCandidate.name}}</br> -->
+              <!-- </div> -->
             </div>
 
+            <!-- <ul isotope-container="isotope-container">
+    <li ng-repeat="x in xList" isotope-item="isotope-item" onclick="removeItem(this)">
+        <div class="symbol">{{x.name}}</div>
+        <div class="weight" date="{{x.date}}">{{x.date|date}}</div>
+        <div class="number" number="{{x.number}}">{{x.number}}</div>
+    </li>
+
+    <li id="extra" isotope-item="" class="kindling green">
+       <div class="symbol">extra</div>
+       <div class="weight" date="1360313309421">{{'1360313309421' | date}}</div>
+       <div class="number" number="20">Twenty</div>
+    </li>
+</ul> -->
+
+          </div>
+
         </div>
+
+        <!-- jquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- fixed sidebar -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- angular isotope -->
+        <script src="js/angular.min.js"></script>
+        <script src="js/jquery.isotope.js"></script>
+        <script src="js/angular-isotope.js"></script>
+
+        <!-- myApp -->
+        <script src="js/app.js"></script>
+
+        <!-- additional js -->
+        <script type="text/javascript" src="js/script.js"></script>
 
     </body>
 </html>
