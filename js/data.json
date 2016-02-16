@@ -146,7 +146,7 @@
         "featuredCandidate": {
           "name": "Conner Eldridge",
           "party": "Democratic",
-          "photo": "../images/AK-Eldridge.jpg",
+          "photo": "../images/AR-Eldridge.jpg",
           "bio": "Conner Eldridge is the former U.S. Attorney for the Western District of Arkansas.",
           "platform": "Protecting Social Security and Medicare, stopping the repeal of hate crime legislation, lowering college debt"
         },
@@ -462,7 +462,7 @@
           "bio": "Mike Crapo has served as senator since 1999 after serving three terms in the U.S. House of Representatives. He ran unopposd in 2004 and won the election in 2010 with 71% of the vote.",
           "platform": "Pro-traditonal marriage, pro-life, reducing government regulation"
         },
-        "otherCandidates": false
+        "otherCandidates": "none"
     },
 
     {
@@ -617,7 +617,7 @@
           "bio": "Jerry Moran is the junior senator from Kansas, first elected in 2010. Prior to joining the Senate, Moran served six terms as a U.S. Representative and two years as the majority leader for the Kansas Senate.",
           "platform": "Agriculture, affordable healthcare, reducing government spending"
         },
-        "otherCandidates": false
+        "otherCandidates": "none"
     },
 
     {
@@ -1141,7 +1141,7 @@
           "bio": "Chuck Schumer is the senior senator for New York who was first elected in 1998. Minority Leader Harry Reid, who is retiring at the end of this term, has endorsed Schumer to succeed him.",
           "platform": "Gun control, abortion rights, homeland security"
         },
-        "otherCandidates": false
+        "otherCandidates": "none"
     },
 
     {
@@ -1297,7 +1297,7 @@
           "bio": "James Lankford is the junior senator for Oklahoma. Previously, he served as the U.S. Representative for Oklahoma's 5th congressional district from 2011 to 2015.",
           "platform": "Gun rights, balancing the budget, agriculture"
         },
-        "otherCandidates": false
+        "otherCandidates": "none"
     },
 
     {
@@ -1461,7 +1461,7 @@
           "bio": "John Thune is the senior Senator from South Dakota, having served since 2005. He previously served in the U.S. House of Representatives from 1997 2003. He has served as the Republican Conference Chairman since 2011, the third-ranking position in the Senate.",
           "platform": "Alternate energy, gun rights, small business"
         },
-        "otherCandidates": false
+        "otherCandidates": "none"
     },
 
     {
@@ -1560,7 +1560,7 @@
           "bio": "A Vermont senator since 1975, Patrick Leahy is the most senior member of the Senate and took office at a younger age than any othercurrent senator. He is the only elected Democratic senator in Vermont's history.",
           "platform": "International human rights, environmental protection, death penalty reform"
         },
-        "otherCandidates": false
+        "otherCandidates": "none"
     },
     {
         "name": "Vermont 2",

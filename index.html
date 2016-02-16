@@ -6,9 +6,9 @@
 
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
-        <link rel="stylesheet" href="styles/main.css"/>
         <link rel="stylesheet" href="css/custom.css" />
         <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
 
     <body ng-app="myApp">
@@ -21,22 +21,57 @@
 
           <div id="headbox">
             <h1>Racing for the Senate</h1>
-            <h2>Thirty-four seats in the United States Senate are up for grabs in 2016.
-              This is where more information will go. This is where more information will go.
-              This is where more information will go. This is where more information will go.
-              This is where more information will go.</h2>
+            <h2>With Republicans holding 24 of the 34 seats up for re-election in November,
+            Democrats will be looking to win back the control of the Senate they lost in 2014.
+            Currently at 46 seats, they will need to win four more to gain control if a Democrat
+            is elected president, or five more if a Republican wins the White House. Use the table
+            below to view who is up for re-election this year and detailed information about each
+            of the 34 races.</h2>
           </div>
+
+          <div id="key">
+            <ul>
+              <li class="openrep">Open Republican Seat</li>
+              <li class="closedrep">Closed Republican Seat</li>
+              <li class="opendem">Open Democratic Seat</li>
+              <li class="closeddem">Closed Democratic Seat</li>
+              <li class="openind">Open Independent Seat</li>
+              <li class="closedind">Closed Independent Seat</li>
+          </div>
+
+          <div class="row" id="buttons">
+            <div class="col-xs-12 col-sm-12 col-md-9 align-left">
+              <button class="btn btn-default" type="submit">All seats</button>
+              <button class="btn btn-default" type="submit">Closed seats</button>
+              <button class="btn btn-default" type="submit">Open seats</button>
+              <button class="btn btn-default" type="submit">Republican seats</button>
+              <button class="btn btn-default" type="submit">Democratic seats</button>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 align-right">
+              <form>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-search"></i></div>
+
+                    <input type="text" class="form-control" placeholder="Search the seats" ng-model="searchPlayers">
+
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
 
           <div class="row show-grid padding-top">
             <div class="col-xs-12 col-md-4">
               <div id="sidebar" data-spy="affix">
-                Hello there
+                Click on a Senate seat to view information about the current senator as well as information about the race for the seats which are contested.
               </div>
             </div>
             <div class="col-xs-12 col-md-8" id="main">
               <div class="row" id="mainbar">
                 <div class="seat-tile" ng-repeat="seat in senate.seats">
-                  <img src="{{seat.background}}" class="img-responsive-icons {{seat.open}}">
+                  <a ng-click="senate.getInfo(seat.name)"><img ng-src="{{seat.background}}" class="img-responsive-icons {{seat.open}}"></a>
                 </div>
               </div>
                 <!-- <p>{{seat.name}}</br>
@@ -44,20 +79,6 @@
                 <b>Featured Candidate </b>{{seat.featuredCandidate.name}}</br> -->
               <!-- </div> -->
             </div>
-
-            <!-- <ul isotope-container="isotope-container">
-    <li ng-repeat="x in xList" isotope-item="isotope-item" onclick="removeItem(this)">
-        <div class="symbol">{{x.name}}</div>
-        <div class="weight" date="{{x.date}}">{{x.date|date}}</div>
-        <div class="number" number="{{x.number}}">{{x.number}}</div>
-    </li>
-
-    <li id="extra" isotope-item="" class="kindling green">
-       <div class="symbol">extra</div>
-       <div class="weight" date="1360313309421">{{'1360313309421' | date}}</div>
-       <div class="number" number="20">Twenty</div>
-    </li>
-</ul> -->
 
           </div>
 
