@@ -26,6 +26,7 @@ app.controller('SenateController', function($http) {
 
           seatInfo += '<div class="seatname">' + this.seats[i].name + '</div>';
 
+          // current senator party
           if (this.seats[i].incumbent.party == "Republican") {
 
             seatInfo += '<div class="repstrip"><h3>current senator</h3></div>';
@@ -40,6 +41,7 @@ app.controller('SenateController', function($http) {
 
           seatInfo += '<div class="senatorname">' + this.seats[i].incumbent.name + '</div><div class="senatorparty">' + this.seats[i].incumbent.party + "</div>";
 
+          // featured candidate party
           if (this.seats[i].open == "open") {
 
             if (this.seats[i].featuredCandidate.party == "Republican") {
@@ -52,11 +54,13 @@ app.controller('SenateController', function($http) {
 
             }
 
+            // featured candidate info
             seatInfo += '<img class="candidatephoto" src="' + this.seats[i].featuredCandidate.photo + '">';
             seatInfo += '<div class="senatorname">' + this.seats[i].featuredCandidate.name + '</div><div class="featuredparty">' + this.seats[i].featuredCandidate.party + "</div>";
             seatInfo += '<div class="moreinfo"><b style="text-transform:uppercase">About: </b>' + this.seats[i].featuredCandidate.bio + '<br /><b style="text-transform:uppercase">Platform points: </b>' + this.seats[i].featuredCandidate.platform + '</div>';
             seatInfo += '<div class="otherstrip"><h3>other candidates</h3></div>';
 
+            // list other candidates if there are
             if (this.seats[i].otherCandidates !== "none") {
 
               console.log("this also worked!");
@@ -68,6 +72,7 @@ app.controller('SenateController', function($http) {
                 seatInfo += '<div class="othercandidates"><b>' + this.seats[i].otherCandidates[j].name + '</b>, ' + this.seats[i].otherCandidates[j].party + '</div>';
               }
 
+              // displays none if there are no other candidates
             } else {
               seatInfo += 'None';
             }
@@ -81,15 +86,3 @@ app.controller('SenateController', function($http) {
 
     }
 });
-
-
-// app.controller(‘PlayersController’, [‘$http’, function($http) {
-// this.players = [ ];
-// var _this = this;
-// $http.get(‘basketball.json’)
-//      .success(function(data) {
-//      _this.players = data;
-//      })
-//      .error(function(msg) {
-//      });
-// }];
