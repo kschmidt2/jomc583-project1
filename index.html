@@ -2,6 +2,9 @@
 <html>
     <head>
 
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Racing for the Senate</title>
 
         <!-- css -->
@@ -9,6 +12,7 @@
         <link rel="stylesheet" href="css/custom.css" />
         <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/waves.min.css" />
     </head>
 
     <body ng-app="myApp">
@@ -20,7 +24,7 @@
         <div class="container" ng-controller="SenateController as senate">
 
           <div id="headbox">
-            <h1>Racing for the Senate</h1>
+            <a href="index.html"><h1>Racing for the Senate</h1></a>
             <h2>With Republicans holding 24 of the 34 seats up for re-election in November,
             Democrats will be looking to win back the control of the Senate they lost in 2014.
             Currently at 46 seats, they will need to win four more to gain control if a Democrat
@@ -41,11 +45,11 @@
 
           <div class="row" id="buttons">
             <div class="col-xs-12 col-sm-12 col-md-9 align-left">
-              <button class="btn btn-default" type="submit">All seats</button>
-              <button class="btn btn-default" type="submit">Closed seats</button>
-              <button class="btn btn-default" type="submit">Open seats</button>
-              <button class="btn btn-default" type="submit">Republican seats</button>
-              <button class="btn btn-default" type="submit">Democratic seats</button>
+              <button class="btn btn-default" type="submit" ng-click="myFilter = {}">All seats</button>
+              <button class="btn btn-default" type="submit" ng-click="myFilter = {open: 'open'}">Open seats</button>
+              <button class="btn btn-default" type="submit" ng-click="myFilter = {open: 'closed'}">Closed seats</button>
+              <button class="btn btn-default" type="submit" ng-click="myFilter = {incumbent: 'Republican'}">Republican seats</button>
+              <button class="btn btn-default" type="submit" ng-click="myFilter = {incumbent: 'Democrat'}">Democratic seats</button>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 align-right">
               <form>
@@ -53,7 +57,7 @@
                   <div class="input-group">
                     <div class="input-group-addon"><i class="fa fa-search"></i></div>
 
-                    <input type="text" class="form-control" placeholder="Search the seats" ng-model="searchPlayers">
+                    <input type="text" class="form-control" placeholder="Search by seat" ng-model="searchSeats">
 
                   </div>
                 </div>
@@ -70,14 +74,10 @@
             </div>
             <div class="col-xs-12 col-md-8" id="main">
               <div class="row" id="mainbar">
-                <div class="seat-tile" ng-repeat="seat in senate.seats">
-                  <a ng-click="senate.getInfo(seat.name)"><img ng-src="{{seat.background}}" class="img-responsive-icons {{seat.open}}"></a>
+                <div class="seat-tile" ng-repeat="seat in senate.seats | filter:myFilter | filter:{name: searchSeats}">
+                  <a ng-click="senate.getInfo(seat.name)"><img ng-src="{{seat.background}}" class="img-responsive-icons {{seat.open}} {{seat.incumbent.party}}"></a>
                 </div>
               </div>
-                <!-- <p>{{seat.name}}</br>
-                <b>Incumbent: </b>{{seat.incumbent.name}} ({{seat.incumbent.party}})</br>
-                <b>Featured Candidate </b>{{seat.featuredCandidate.name}}</br> -->
-              <!-- </div> -->
             </div>
 
           </div>
@@ -93,13 +93,21 @@
         <!-- angular isotope -->
         <script src="js/angular.min.js"></script>
         <script src="js/jquery.isotope.js"></script>
-        <script src="js/angular-isotope.js"></script>
+        <script src="js/isotope-docs.min.js"></script>
 
         <!-- myApp -->
         <script src="js/app.js"></script>
 
         <!-- additional js -->
         <script type="text/javascript" src="js/script.js"></script>
+
+        <!-- waves -->
+        <script type="text/javascript" src="js/waves.min.js"></script>
+
+        <script type="text/javascript">
+            Waves.attach('.img-responsive-icons', ['waves-float', 'waves-block']);
+            Waves.init();
+        </script>
 
     </body>
 </html>
