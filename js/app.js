@@ -28,10 +28,14 @@ app.controller('SenateController', function($http) {
 
           if (this.seats[i].incumbent.party == "Republican") {
 
-            seatInfo += '<div class="repstrip"><h3>current senator</h3></div>'
+            seatInfo += '<div class="repstrip"><h3>current senator</h3></div>';
+
+          } else if (this.seats[i].incumbent.part == "Democrat"){
+
+            seatInfo += '<div class="demstrip"><h3>current senator</h3></div>';
 
           } else {
-            seatInfo += '<div class="demstrip"><h3>current senator</h3></div>'
+            seatInfo += '<div class="otherstrip"><h3>current senator</h3></div>';
           }
 
           seatInfo += '<div class="senatorname">' + this.seats[i].incumbent.name + '</div><div class="senatorparty">' + this.seats[i].incumbent.party + "</div>";
