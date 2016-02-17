@@ -30,7 +30,7 @@ app.controller('SenateController', function($http) {
 
             seatInfo += '<div class="repstrip"><h3>current senator</h3></div>';
 
-          } else if (this.seats[i].incumbent.part == "Democrat"){
+          } else if (this.seats[i].incumbent.party == "Democrat"){
 
             seatInfo += '<div class="demstrip"><h3>current senator</h3></div>';
 
