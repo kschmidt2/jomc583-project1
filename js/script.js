@@ -16,3 +16,16 @@ $(document).ready(function () {
     affixWidth();
 
 });
+
+jQuery(function($) {
+	var open = false;
+	$('#footerSlideButton').click(function() {
+		if(open === false) {
+			$('#footerSlideContent').animate({ height: '30%' });
+			open = true;
+		} else {
+			$('#footerSlideContent').animate({ height: '0px' });
+			open = false;
+		}
+	});
+});
