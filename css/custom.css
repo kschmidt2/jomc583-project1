@@ -8,10 +8,12 @@ body {
   top: -20px;
   margin-bottom: -20px;
   overflow-x: hidden;
+  text-align: center;
 }
 
-#banner-image {
-  box-shadow: 10px 10px 5px #888888;
+.banner-image {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container {
