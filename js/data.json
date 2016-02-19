@@ -754,7 +754,7 @@
         "name": "Maryland 1",
         "background": "icons/Maryland1.jpg",
         "incumbent": {
-          "name": "Barbars Mikulski",
+          "name": "Barbara Mikulski",
           "party": "Democrat"
           },
         "open": "open",
@@ -1470,7 +1470,7 @@
 
     {
         "name": "South Dakota 2",
-        "background": "icons/SouthDakota1.jpg",
+        "background": "icons/SouthDakota2.jpg",
         "incumbent": {
           "name": "Mike Rounds",
           "party": "Republican"
